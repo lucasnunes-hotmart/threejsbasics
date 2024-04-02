@@ -1,4 +1,4 @@
-import * as THREE from './threejs'
+import * as THREE from './threejs.js'
 // Criar cena
 var scene = new THREE.Scene();
 
