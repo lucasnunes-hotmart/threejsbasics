@@ -1,4 +1,4 @@
-import * as THREE from 'three'
+import * as THREE from './threejs'
 // Criar cena
 var scene = new THREE.Scene();
 
