@@ -12,7 +12,7 @@ git clone https://github.com/lucasnunes-hotmart/threejsbasics.git
 Navegue até o diretório do projeto:
 
 ```bash
-cd modelagem-animacao-3d-threejs
+cd threejsbasics
 ```
 
 Abra o arquivo index.html em um navegador da web compatível com WebGL.
