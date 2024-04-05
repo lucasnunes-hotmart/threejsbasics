@@ -6,14 +6,15 @@ Para executar este projeto localmente, siga estas etapas:
 
 Clone este repositório para o seu computador:
 
-bash
-Copy code
+```bash
 git clone https://github.com/seu-usuario/modelagem-animacao-3d-threejs.git
+```
 Navegue até o diretório do projeto:
 
-bash
-Copy code
+```bash
 cd modelagem-animacao-3d-threejs
+```
+
 Abra o arquivo index.html em um navegador da web compatível com WebGL.
 
 Funcionalidades
