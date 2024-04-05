@@ -7,7 +7,7 @@ Para executar este projeto localmente, siga estas etapas:
 Clone este repositório para o seu computador:
 
 ```bash
-git clone https://github.com/seu-usuario/modelagem-animacao-3d-threejs.git
+git clone https://github.com/lucasnunes-hotmart/threejsbasics.git
 ```
 Navegue até o diretório do projeto:
 
