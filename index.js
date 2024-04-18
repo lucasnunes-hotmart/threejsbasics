@@ -33,8 +33,8 @@ function animate() {
   requestAnimationFrame(animate);
 
   // Girar o cubo
-  cube.rotation.x += 0.01;
-  cube.rotation.y += 0.01;
+  cube.rotation.x += baseParams.rotationSpeed;
+  cube.rotation.y += baseParams.rotationSpeed;
 
   controls.update();
 
