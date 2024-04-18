@@ -49,6 +49,7 @@ function createPanel() {
   const panel = new GUI( { width: 310 } );
 
   const folder1 = panel.addFolder( 'Base Actions' );
+  folder1.add('rotationSpeed', 0, 0.1)
 
   folder1.open();
 
