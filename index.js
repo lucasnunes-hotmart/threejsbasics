@@ -16,11 +16,12 @@ document.body.appendChild(renderer.domElement);
 
 // Criar cubo
 var geometry = new THREE.BoxGeometry();
-var material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+var material = new THREE.MeshBasicMaterial({ color: 'white' });
 var cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
+scene.add(cube);
 
-const baseParams = { rotationSpeed: 0.01 }
+const baseParams = { rotationSpeed: 0.01, width: '50px', height: '50px' }
 
 const controls = new OrbitControls( camera, renderer.domElement );
 
@@ -52,6 +53,8 @@ function createPanel() {
 
   const folder1 = panel.addFolder( 'Base Actions' );
   folder1.add(baseParams, 'rotationSpeed', 0, 0.1)
+  folder1.add(baseParams, 'width', 10, 200)
+  folder1.add(baseParams, 'height', 10, 200)
 
   folder1.open();
 
